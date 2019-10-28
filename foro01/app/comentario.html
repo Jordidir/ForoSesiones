@@ -1,0 +1,27 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="web/default.css">
+</head>
+<body>
+	<form name='detalles'method="POST" action="index.php">
+	<table>
+	<tr>
+		<td>Tema:</td>
+		<td>
+			<input type="text" name="tema" placeholder="Introduzca el tema" value="<?=(isset($_REQUEST['tema']))?$_REQUEST['tema']:''?>">
+		</td>
+	</tr>
+	<tr>
+		<td>Comentario: </td>
+		<td>
+			<textarea name="comentario" placeholder="Redacte su comentario"><?=(isset($_REQUEST['comentario']))?$_REQUEST['comentario']:''?></textarea>
+		</td>
+	</tr>
+	</table>
+	<input type="submit"name="orden"value="Detalles">
+	<input type="submit"name="orden" value="Nueva opinión">
+	<input type="submit"name="orden"value="Terminar">
+	</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#cabeza{
+	background-color: rgb(90, 120, 200);
+	width: 450px;
+	border: 1px solid black;
+	border-bottom: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+#content{
+	background-color: rgb(140, 170, 250);
+	width: 450px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+img{
+	width: 100px;
+	text-align: center;
+}
+form{
+	text-align: center;
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 430px;
+}
